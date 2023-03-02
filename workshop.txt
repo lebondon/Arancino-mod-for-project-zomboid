@@ -1,0 +1,6 @@
+version=1
+id=2941130615
+title=Arancino mod
+description=Add arancinis to the game!
+tags=Food;Items
+visibility=public
