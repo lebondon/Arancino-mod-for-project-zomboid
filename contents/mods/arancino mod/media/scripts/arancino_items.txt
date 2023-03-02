@@ -1,0 +1,37 @@
+module ARA
+{
+
+      imports
+{
+		base
+}
+
+
+
+
+item Arancino
+	{
+		DisplayName = Arancino,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = arancino,
+		BadInMicrowave = true,
+		DangerousUncooked = TRUE,
+		FoodType = Poultry,
+		GoodHot = true,
+		IsCookable = TRUE,
+		MinutesToCook = 30,
+		MinutesToBurn = 60,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+ 		CustomEatSound = italy_funny.ogg,
+		HungerChange = -36,
+		Calories = 150,
+		Carbohydrates = 0,
+		Lipids = 9,
+		Proteins = 18,
+		StaticModel = FriedChicken,
+		WorldStaticModel = Chicken,
+	}
+}
